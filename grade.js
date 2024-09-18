@@ -1,5 +1,5 @@
-const grade=-12
-if (grade>100 != grade<0) {
+const grade=1
+if (grade>=0 && grade<=100) {
     
 
  if (grade>=90 && grade<100) {
@@ -25,11 +25,12 @@ if (grade>100 != grade<0) {
     
     
  }
- else if (grade>0 && grade<50) {
-    console.log("F");
-    
-    
+ else if (grade>=0 && grade<50) {
+    console.log("F"); 
  }
- console.log("the value is wrong");
+
  
+}
+else{
+   console.log("the value is wrong");
 }
